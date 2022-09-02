@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "632235977305",
+    "project_id": "keynius-flex",
+    "storage_bucket": "keynius-flex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632235977305:android:207b903f2675cdaa6b9f48",
+        "android_client_info": {
+          "package_name": "com.example.login_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632235977305-u6k2dn7llkbuepu1rp0gr80c8btvc99o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login_admin",
+            "certificate_hash": "cb42ec500d49b8d41e6b0f5f21b4734140e0648e"
+          }
+        },
+        {
+          "client_id": "632235977305-l0rotb3ppvrj6q9ih0q4jcnndnsb6ttu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_WFrNf1qPeJkXD-uxwO19KSEHS2I8Vp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632235977305-l0rotb3ppvrj6q9ih0q4jcnndnsb6ttu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
