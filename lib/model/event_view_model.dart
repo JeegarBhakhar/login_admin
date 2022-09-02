@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:login_admin/model/user_wingDisplay.dart';
-import 'package:login_admin/widget/common_util.dart';
 
 import 'enum.dart';
 
@@ -14,7 +13,7 @@ class EventViewModel extends ChangeNotifier {
   CollectionReference _collectionRef =
       FirebaseFirestore.instance.collection('tbl_event');
 
-  Future<void> getSearchList() async {
+  /*Future<void> getSearchList() async {
     CommonUtil().checkInternetConnection().then((value) {
       if (value) {
         _status = Status.loading;
@@ -34,7 +33,7 @@ class EventViewModel extends ChangeNotifier {
         notifyListeners();
       }
     });
-  }
+  }*/
 
   Future<void> getDataEvent() async {
     QuerySnapshot querySnapshot = await _collectionRef.get();
